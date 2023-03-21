@@ -9,11 +9,11 @@ function getComputerChoice() {
 
     //Use random number to print an option
     if (randomNumber === 3) {
-        return ("Scissors");
+        console.log("Scissors");
     } else if (randomNumber === 2) {
-        return ("Paper");
+        console.log("Paper");
     } else {
-        return ("Rock");
+        console.log("Rock");
     }
 }
 
