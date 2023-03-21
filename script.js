@@ -9,12 +9,11 @@ function getComputerChoice() {
 
     //Use random number to print an option
     if (randomNumber === 3) {
-        console.log("Scissors");
+        return ("Scissors");
     } else if (randomNumber === 2) {
-        console.log("Paper");
+        return ("Paper");
     } else {
-        console.log("Rock");
+        return ("Rock");
     }
 }
-
-getComputerChoice();
+const computerChoice = getComputerChoice();
