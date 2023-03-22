@@ -88,4 +88,4 @@ for (; roundsPlayed < 5;) {
             score();
     }
     game();
-    }
+}
